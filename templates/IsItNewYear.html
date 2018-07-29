@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Is It New Year? 🎄🎅</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html,
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            font-family: Avenir;
+        }
+    </style>
+</head>
+
+<body>
+    {% if new_year %}
+    <h1>Yes! Happy new year! 😊🎄🙏</h1>
+    {% else %}
+    <h1>NO!</h1>
+    {% endif %}
+</body>
+
+</html>

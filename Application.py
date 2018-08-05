@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello, world!"
+    return "MAKE IT RAINGURL, MAKE IT RAIN!"
 
 
 @app.route("/<string:name>")
 def hello(name):
     name = name.capitalize()
-    return f"<h1>Hey {name}, wassup? :)</h1>"
+    return f"<h1>Oh yeah hey {name} hey wassup?</h1>"
